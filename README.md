@@ -1,8 +1,8 @@
-# 🏅 Paris 2024 Olympic Games Dashboard
+#  Paris 2024 Olympic Games Dashboard
 
 A comprehensive multi-page Streamlit dashboard for analyzing the Paris 2024 Olympic Summer Games data, created for the LA28 Volunteer Selection Challenge.
 
-## 📋 Overview
+##  Overview
 
 This interactive dashboard provides deep insights into the Paris 2024 Olympics through:
 - **Data Cleaning & Preprocessing**: Handles missing values, calculates athlete ages, and adds continent mappings
@@ -10,7 +10,7 @@ This interactive dashboard provides deep insights into the Paris 2024 Olympics t
 - **Interactive Visualizations**: 20+ charts including choropleth maps, sunbursts, treemaps, and Gantt timelines
 - **Global Filters**: Consistent filtering across pages by Country, Sport, Medal Type, and Continent
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -26,36 +26,36 @@ pip install -r requirements.txt
 Navigate to the project directory and run:
 
 ```bash
-streamlit run 1_🏠_Overview.py
+streamlit run 1_Overview.py
 ```
 
 The dashboard will open in your default web browser at `http://localhost:8501`
 
-## 📊 Dashboard Pages
+##  Dashboard Pages
 
-### 1. 🏠 Overview (Main Page)
+### 1.  Overview (Main Page)
 - **KPI Metrics**: Total Athletes, Countries, Sports, Medals, Events
 - **Global Medal Distribution**: Pie/Donut chart showing Gold, Silver, Bronze distribution
 - **Top 10 Medal Standings**: Horizontal bar chart of leading countries
 
-### 2. 🗺️ Global Analysis
+### 2.  Global Analysis
 - **World Medal Map**: Interactive choropleth showing medal counts by country
 - **Medal Hierarchy**: Sunburst and Treemap visualizations (Continent → Country → Medal Type)
 - **Continent Comparison**: Grouped bar charts for continental and country-level analysis
 
-### 3. 👤 Athlete Performance
+### 3.  Athlete Performance
 - **Athlete Profile Card**: Searchable athlete details with personal information
 - **Age Distribution**: Violin plots showing age ranges by sport and gender
 - **Gender Distribution**: Pie and bar charts analyzing participation by continent
 - **Top Athletes**: Ranking of athletes by medal count
 
-### 4. 🏟️ Sports and Events
+### 4.  Sports and Events
 - **Event Schedule**: Interactive Gantt chart/timeline of competitions
 - **Medal Count by Sport**: Treemap visualization of sports performance
 - **Venue Map**: Interactive map showing Olympic venue locations in Paris
 - **Event Statistics**: Key metrics about sports and venues
 
-## 🎯 Key Features
+##  Key Features
 
 ### Data Cleaning & Preprocessing
 - **Missing Value Handling**: Replaces 0.0 values in height/weight with NaN
@@ -67,7 +67,7 @@ The dashboard will open in your default web browser at `http://localhost:8501`
 Available on all pages:
 - **Country Selection**: Multi-select filter for specific nations
 - **Sport Selection**: Filter by Olympic sports
-- **Continent Selection**: ⭐ **Creativity Challenge** - unique continent-level filtering
+- **Continent Selection**:  **Creativity Challenge** - unique continent-level filtering
 - **Medal Type**: Checkboxes for Gold, Silver, Bronze medals
 
 ### Technologies Used
@@ -76,7 +76,7 @@ Available on all pages:
 - **Plotly**: Advanced interactive visualizations
 - **NumPy**: Numerical computations
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 TESTSEDS/
@@ -94,7 +94,7 @@ TESTSEDS/
 └── README.md                     # This file
 ```
 
-## 🎨 Design Choices
+##  Design Choices
 
 ### Multi-Page Architecture
 - Streamlit's native multi-page app feature for clean navigation
@@ -122,7 +122,7 @@ Includes:
 - `venues.csv`: Olympic venue information
 - And more...
 
-## 🏆 Creativity Features
+## Creativity Features
 
 1. **Continent Filter**: Added as a global filter enabling continent-level analysis across all pages
 2. **Age Calculation**: Dynamic age computation relative to Olympics start date
@@ -130,7 +130,7 @@ Includes:
 4. **Athlete Search**: Type-ahead search functionality for athlete profiles
 5. **Comprehensive Data Cleaning**: Robust preprocessing pipeline handling edge cases
 
-## 👥 Team Information
+##  Team Information
 
 This project was created for the LA28 Volunteer Selection Challenge by demonstrating proficiency in:
 - Data Science & Analytics
@@ -138,11 +138,11 @@ This project was created for the LA28 Volunteer Selection Challenge by demonstra
 - Data Cleaning & Preprocessing
 - Interactive Visualization Design
 
-## 📝 License
+##  License
 
 This project uses publicly available Olympic Games data from Kaggle for educational and demonstration purposes.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Paris 2024 Olympics for the incredible event
 - Kaggle community for the comprehensive dataset
@@ -151,4 +151,4 @@ This project uses publicly available Olympic Games data from Kaggle for educatio
 
 ---
 
-**Created with ❤️ for the LA28 Volunteer Selection Challenge**
+
