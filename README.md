@@ -80,11 +80,12 @@ Available on all pages:
 
 ```
 TESTSEDS/
-├── 1_🏠_Overview.py              # Main landing page
+├── 1 Overview.py              # Main landing page
 ├── pages/
-│   ├── 2_🗺️_Global_Analysis.py   # Geographic analysis
-│   ├── 3_👤_Athlete_Performance.py # Athlete-centric views
-│   └── 4_🏟️_Sports_and_Events.py  # Sports and venues
+│   ├── 2 Global_Analysis.py   # Geographic analysis
+│   ├── 3 Athlete_Performance.py # Athlete-centric views
+│   └── 4
+Sports_and_Events.py  # Sports and venues
 ├── utils/
 │   ├── data_loader.py            # Cached data loading
 │   ├── data_cleaning.py          # Preprocessing functions
